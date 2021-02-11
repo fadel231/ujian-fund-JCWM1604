@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <h1>PATTERN</h1>
+        <script>
+           var huruf =
+           function cek() {
+                var bilangan = parseInt(document.getElementById('Input').value);
+                var hasil;
+                if(cek%2==0){
+                    hasil = "bilangan"+bilangan+"Adalah Bilangan Ganjil"
+                }else{
+                    hasil = "bilangan"+bilangan+"Adalah Bilangan Genap";
+                }
+                console.log(hasil)
+            }
+            function fib(n) {
+            if (n == 0)
+            return 0;
+            if (n <= 2)
+            return 1;
+            return fib(n-1) + fib(n-2);
+            }
+                    document.getElementById('output').innerHTML
+                
+
+             
+
+        
+            </script>
+        
+      
+    <title></title>
+</head>
+<body>
+    <label for="">Masukkan Angka</label>
+    <input type="text"><br><button onclick="cek()">ganjil</button><button onclick="cek()">genap</button>
+    <button onclick="fib(n)">show</button>
+</body>
+</html>
